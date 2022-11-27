@@ -1,0 +1,117 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+ 
+ .App {
+
+  background-image: url(../public/debtcalcwebbg2.png);
+  background-size:  cover;
+  min-height: 100vh;
+  display: flex;
+}
+h2{
+  text-align: center;
+}
+h1{
+  width: fit-content;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.btn{
+  padding: 8px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border: solid 1px transparent;
+  background-color: #8E2D2D;
+  border-radius: 100px;
+  color: #ffffff;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: 600;
+}
+
+.btn:active {
+  background: #09223b;
+  color: rgb(255, 255, 255, .7);
+}
+
+.btn:hover,
+.btn:focus { 
+  background-color: #16437E;
+  color: #ffffff;
+  cursor: pointer;
+}
+.base-input-field{
+  border-radius: 6px;
+  padding: 10px;
+  border: solid black 2px;
+  margin: 5px 0 5px 0;
+}
+
+.form-wrapper{
+  border: solid;
+  max-width: 1140px;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  height: fit-content;
+  margin-top: 100px;
+  background-color: #ffffff5b;
+}
+
+.user-debt-input {
+  width: fit-content;
+  margin: auto;
+}
+form > div{
+  margin: 15px;
+
+}
+
+.payment-info-wrapper {
+  max-width: 800px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: auto;
+  border: solid black 1px;
+  justify-items: center;
+  padding: 15px;
+}
+.next-payment-wrapper{
+  text-align: center;
+}
+.next-payment-wrapper > div{
+  margin: 15px;
+  font-size: 14px;
+  font-weight: 400;
+}
+.payment-hist-list{
+  list-style: none;
+  /* align-items: center; */
+  display: flex;
+}
+.payment-hist-item{
+  padding: 10px;
+}
+
+.make-payment-wrapper h2{
+  text-align: left;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+.payment-hist-wrapper h3{ 
+  text-align: center;
+
+}
+
+.pay-table{
+  text-align: center;
+  margin: auto;
+}
+
+.pay-table td{
+  padding: 10PX 20px;
+}
